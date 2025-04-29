@@ -1,5 +1,5 @@
-title: tonic-starter
-description: ""
+title: evergreen
+description: "A serene, minimalist writing-focused theme with Light & Dark modes, perfect for blogs, journals, or simple personal websites"
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
