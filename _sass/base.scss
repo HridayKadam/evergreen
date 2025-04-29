@@ -1,5 +1,5 @@
 :root {
-  --bg: #ffffff;
+  --bg: #e1ffb9;
   --text: #000000;
   --accent: #007acc;
 }
@@ -31,7 +31,7 @@ button#theme-toggle {
   right: 1rem;
   background: var(--accent);
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 6px;
