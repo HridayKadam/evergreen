@@ -3,3 +3,6 @@ description: "A serene, minimalist writing-focused theme with Light & Dark modes
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
+
+sass:
+  sass_dir: _sass
