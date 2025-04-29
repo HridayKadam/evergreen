@@ -5,4 +5,5 @@ encoding: utf-8
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
 
 sass:
-  sass_dir: _sass
+  load_paths:
+    - _sass
