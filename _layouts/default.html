@@ -1,6 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
     {% include head.html %}
-  <body>
-    {{ content }}
+    <link rel="stylesheet" href="{{ '/assets/evergreen.css' | relative_url }}">
+  </head>
+  <body class="">
+    <button id="theme-toggle">🌓</button>
+    <main>
+      {{ content }}
+    </main>
+
+    <script>
+      const toggle = document.getElementById('theme-toggle');
+      toggle.onclick = () => {
+        document.body.classList.toggle('dark');
+        localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+      };
+      if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark');
+      }
+    </script>
   </body>
 </html>
